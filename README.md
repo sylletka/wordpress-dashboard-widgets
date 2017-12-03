@@ -16,5 +16,5 @@ Add widgets with the "Dashboard widgets" menu item in the dashboard menu, and ed
 
 ## Changelog
 
-### 1.0 
+### 1.0.0 
 * initial release
