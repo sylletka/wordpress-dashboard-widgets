@@ -13,3 +13,8 @@ Activate the plugin through the "Plugins" menu in WordPress.
 ## Usage
 
 Add widgets with the "Dashboard widgets" menu item in the dashboard menu, and edit them the same way as for posts and pages.
+
+## Changelog
+
+### 1.0 
+* initial release
