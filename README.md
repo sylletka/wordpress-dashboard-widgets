@@ -18,3 +18,6 @@ Add widgets with the "Dashboard widgets" menu item in the dashboard menu, and ed
 
 ### 1.0.0 
 * initial release
+### 1.0.1 
+* added readme.txt
+

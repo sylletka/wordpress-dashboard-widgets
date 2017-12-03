@@ -17,3 +17,5 @@ Activate the plugin through the \"Plugins\" menu in WordPress.
 == Changelog ==
 = 1.0.0 =
 * initial release
+= 1.0.1 =
+* added readme.txt
