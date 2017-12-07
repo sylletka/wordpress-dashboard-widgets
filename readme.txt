@@ -2,6 +2,7 @@
 Contributors: sylletka
 Tags: dashboard
 Tested up to: 4.9.1
+Stable tag: 1.0.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl.html
 
