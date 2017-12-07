@@ -5,8 +5,8 @@
  * Description:  This plugin allows site administrator to easily add simple text widgets to the dashboard
  * Author:       Samuele Saorin
  * Author URI:   https://github.com/sylletka/
- * Version:      1.0.1
- * Text Domain:  wordpress-dashboard-widgets
+ * Version:      1.0.2
+ * Text Domain:  dashboard-widgets
  * Domain Path:  /languages
  *
  *

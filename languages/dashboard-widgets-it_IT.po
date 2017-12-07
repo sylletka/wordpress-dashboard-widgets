@@ -1,57 +1,65 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: dashboard-widgets\n"
-"POT-Creation-Date: 2017-12-03 17:30+0100\n"
-"PO-Revision-Date: 2017-11-30 12:18+0100\n"
+"POT-Creation-Date: 2017-12-07 08:28+0100\n"
+"PO-Revision-Date: 2017-12-07 08:28+0100\n"
 "Last-Translator: sylletka <sylletka@gmail.com>\n"
 "Language-Team: \n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.11\n"
 "X-Poedit-Basepath: ../classes\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: en\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: dashboardWidgets.php:45
 msgid "Dashboard widgets"
-msgstr ""
+msgstr "Widget in bacheca"
 
 #: dashboardWidgets.php:46
 msgid "Dashboard widget"
-msgstr ""
+msgstr "Widget in bacheca"
 
 #: dashboardWidgets.php:47
 msgid "Add new"
-msgstr ""
+msgstr "Crea nuovo"
 
 #: dashboardWidgets.php:48
 msgid "Add new widget in dashboard"
-msgstr ""
+msgstr "Aggiungi un widget alla bacheca"
 
 #: dashboardWidgets.php:49
 msgid "Edit widget"
-msgstr ""
+msgstr "Modifica il widget"
 
 #: dashboardWidgets.php:50
 msgid "Search dashboard widgets"
-msgstr ""
+msgstr "Cerca tra i widget della bacheca"
 
 #: dashboardWidgets.php:51
 msgid "No dashboard widgets found."
-msgstr ""
+msgstr "Nessun widget della bacheca trovato."
 
 #: dashboardWidgets.php:52
 msgid "No dashboard widgets found in Trash."
-msgstr ""
+msgstr "Nessun widget della bacheca trovato nel cestino."
 
 #: dashboardWidgets.php:139
 msgid "Roles to display to"
-msgstr ""
+msgstr "Ruoli ai quali mostrare"
 
 #: views/rolesMetabox.php:4
 msgid "Display this widget only to these roles:"
-msgstr ""
+msgstr "Mostra questo widget solo a questi ruoli:"
+
+#~ msgid "New widget"
+#~ msgstr "Nuovo widget"
+
+#~ msgid "View widget"
+#~ msgstr "Visualizza il widget"
+
+#~ msgid "All dashboard widgets"
+#~ msgstr "Tutti i widget della bacheca"

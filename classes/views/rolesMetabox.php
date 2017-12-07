@@ -1,7 +1,7 @@
 <label for="enable_roles_limit">
 <input name="enable_roles_limit" type=hidden value=0>
 <input id="enable_roles_limit" name="enable_roles_limit" type=checkbox value=1' <?php echo $limit_checked ?>>
-<?php _e( 'Display this widget only to these roles:', 'wordpress-dashboard-widgets' ); ?>
+<?php _e( 'Display this widget only to these roles:', 'dashboard-widgets' ); ?>
 </label>
 <ul id="enabled_roles_list">
 <?php foreach ( $roles_keys as $role ): ?>

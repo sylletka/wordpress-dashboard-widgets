@@ -19,3 +19,6 @@ Activate the plugin through the \"Plugins\" menu in WordPress.
 * initial release
 = 1.0.1 =
 * added readme.txt
+= 1.0.2 =
+* renamed files and changed slug to comply to Wordpress plugins guidelines
+

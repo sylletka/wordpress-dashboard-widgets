@@ -20,4 +20,6 @@ Add widgets with the "Dashboard widgets" menu item in the dashboard menu, and ed
 * initial release
 ### 1.0.1 
 * added readme.txt
+### 1.0.2
+* renamed files and changed slug to comply to Wordpress plugins guidelines
 

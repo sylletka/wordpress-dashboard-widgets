@@ -19,7 +19,7 @@ if ( !class_exists( 'dashboardWidgets' ) ) {
             $this->basedir   = dirname( dirname( __FILE__ ) );
             $this->plugindir = basename( $this->basedir );
             load_plugin_textdomain(
-                'wordpress-dashboard-widgets',
+                'dashboard-widgets',
                 false,
                 $this->plugindir . '/languages/'
             );
@@ -42,14 +42,14 @@ if ( !class_exists( 'dashboardWidgets' ) ) {
         private function register_post_type()
         {
             $labels = array(
-                'name'                => __( 'Dashboard widgets', 'wordpress-dashboard-widgets' ),
-                'singular_name'       => __( 'Dashboard widget', 'wordpress-dashboard-widgets' ),
-                'add_new'             => __( 'Add new', 'wordpress-dashboard-widgets' ),
-                'add_new_item'        => __( 'Add new widget in dashboard', 'wordpress-dashboard-widgets' ),
-                'edit_item'           => __( 'Edit widget', 'wordpress-dashboard-widgets' ),
-                'search_items'        => __( 'Search dashboard widgets', 'wordpress-dashboard-widgets' ),
-                'not_found'           => __( 'No dashboard widgets found.', 'wordpress-dashboard-widgets' ),
-                'not_found_in_trash'  => __( 'No dashboard widgets found in Trash.', 'wordpress-dashboard-widgets' )
+                'name'                => __( 'Dashboard widgets', 'dashboard-widgets' ),
+                'singular_name'       => __( 'Dashboard widget', 'dashboard-widgets' ),
+                'add_new'             => __( 'Add new', 'dashboard-widgets' ),
+                'add_new_item'        => __( 'Add new widget in dashboard', 'dashboard-widgets' ),
+                'edit_item'           => __( 'Edit widget', 'dashboard-widgets' ),
+                'search_items'        => __( 'Search dashboard widgets', 'dashboard-widgets' ),
+                'not_found'           => __( 'No dashboard widgets found.', 'dashboard-widgets' ),
+                'not_found_in_trash'  => __( 'No dashboard widgets found in Trash.', 'dashboard-widgets' )
             );
 
             $capabilities =  array(
@@ -136,7 +136,7 @@ if ( !class_exists( 'dashboardWidgets' ) ) {
         {
             add_meta_box(
                 self::POST_TYPE_SLUG . '-roles-metabox',
-                __( 'Roles to display to', 'wordpress-dashboard-widgets' ),
+                __( 'Roles to display to', 'dashboard-widgets' ),
                 array( $this, 'roles_meta_box_callback' ),
                 self::POST_TYPE_SLUG
             );
@@ -248,8 +248,8 @@ if ( !class_exists( 'dashboardWidgets' ) ) {
         {
             if ( $this->is_widget_edit_page() ) {
                 wp_enqueue_script(
-                    'wordpress-dashboard-widgets',
-                    plugins_url( $this->plugindir ) . '/assets/js/wordpress-dashboard-widgets.js'
+                    'dashboard-widgets',
+                    plugins_url( $this->plugindir ) . '/assets/js/dashboard-widgets.js'
                 );
             }
         }
